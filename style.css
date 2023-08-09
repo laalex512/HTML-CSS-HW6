@@ -30,8 +30,17 @@ a {
 }
 
 .find_button:hover {
-    border: 1px solid white;
-    margin: 0 -1px;
+    fill: blue;
+}
+
+.right_menu {
+    width: 159px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.right_menu__link:hover {
+    fill: blue;
 }
 
 header {
@@ -124,6 +133,10 @@ header {
     grid-template-columns: repeat(3, 360px);
     gap: 30px;
     padding-bottom: 48px;
+}
+
+.product_item {
+    background-color: #F8F8F8;
 }
 
 .prod_description {
